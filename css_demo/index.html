@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taylor CSS Demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Gochi Hand' rel='stylesheet">
+    <style>
+       
+       green-text
+
+        h2{
+            color:deeppink;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .test{
+            color:darkorchid;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href=" about.html">About</a> </li>
+        <li><a href="contact.html">Contact</a> </li>  
+    </ul>   
+
+    <h1>Today, we will learn about adding style with CSS </h1>
+    <h2>THis is how we add style with INLINE CSS</h2>
+    <p style="color:rgb(116, 73, 105);">I want this text to be pink</p>
+    <p style="color:rgb(195, 59, 131);">But I want this text to be red</p>
+    <p style="font-size: 50px;">I want this text to be really big.</p>
+    <p style="font-size: 5px;">But I want this text to be really small.</p>
+    <p style="color:rgb(159, 102, 214); font-size: 25px; text-align: center;">I want this text to be purple, big, and centered.</p>
+
+    <h2>This is how we use INTERNAL Styling.</h2>
+    <p id="green-text">I want this text to be green.</p>
+    <!-- The id green text can only be used once. -->
+     <h2>Here is another example of a element selector, I can stye all H2's the same.</h2>
+        <h2>We can also use a class selector, which you can apply to as many lines of code as you would like.</h2>
+        <p class="test">This is part of a class</p>
+        <h3 class="test">This is also part of a class.</h3>
+        <ul class="test">
+            <li>So is this!</li>
+        </ul>
+
+        <h2>This is how we use EXTERNAL Styling</h2>
+        <div class="copy">
+            <p>This paragraph is part of a div</p>
+            <p>So is this one.</p>
+            <img src="images/pink_bow_1.jpg" width="300">
+             <p>This is how we use spans.</p>
+        <p>This <span id="span1"> word</span> and this
+        <span id="span2">group of words</span> will be styled 
+        differently.
+        </p>
+        </div>    
+    
+</body> 
+</html>
